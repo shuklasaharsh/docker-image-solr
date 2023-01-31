@@ -1,0 +1,6 @@
+version: '3'
+services:
+  solr:
+    image: "bitnami/solr:latest"
+    volumes:
+      - ./solr-data:/bitnami/solr/server/solr
